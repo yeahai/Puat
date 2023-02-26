@@ -1,0 +1,69 @@
+   qssStyle = '''
+            QPushButton{
+                font-family:"JetBrainMono Nerd Font";
+                text-align:top;
+                background:#6DDF6D;border-radius:5px;
+                border:none;
+                font-size:13px;
+            }
+            QListWidget {
+                outline: none;
+                font-family:"JetBrainMono Nerd Font";
+                font-size:20px;
+                text-align: center
+            }
+         '''
+                QLineEdit {
+                border:1px solid rgb(170, 0, 255);
+                border-radius:10px;
+             }
+             QPushButton{
+                 font-family:"JetBrainMono Nerd Font";
+                 text-align:top;
+                 background:#6DDF6D;border-radius:5px;
+                 border:none;
+                 font-size:13px;
+
+             }
+             QListWidget {
+                 outline: none;
+                 font-family:"JetBrainMono Nerd Font";
+                 font-size:18px;
+                 background-color: skyblue;
+             }
+             QListWidget::item{
+                  text-align: center
+                  background-color: #393d49;
+                  color: #ffffff;
+                  border: transparent;
+                  padding: 8px;
+             }
+             QListWidget::item:hover {
+                 background-color: #4e5465;
+             }
+             QListWidget::item:selected {
+                 border-left: 5px solid #009688;
+             }
+           QTableWidget#stack3table::item:selected{
+                 color:#DCDCDC;
+                 background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #484848,stop:1 #383838);
+            }
+              # qssStyle = """
+    #   QListWidget {
+    #      outline: none;
+    #      font-family:"JetBrainMono Nerd Font";
+    #      font-size:18px;
+    #      background-color: #6074A6;
+    #   }
+    #   QTableWidget {
+    #     background:white;
+    #     border:1px solid #242424;
+    #     alternate-background-color:black;/*交错颜色*/
+    #     gridline-color:#242424;
+    #   }
+    #   QHBoxLayout#foot{
+    #    background-color: #6074A6;
+    #   }
+    #
+    #
+    # """
